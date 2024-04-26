@@ -1,7 +1,7 @@
 import React ,{useState} from 'react'
 import {databases} from '../appwrite/appwriteConfig'
 import {v4 as uuidv4} from 'uuid'
-import { data } from 'autoprefixer'
+
 
 function TodoForm() {
 
@@ -37,7 +37,7 @@ function TodoForm() {
       >
         <input
           type="text"
-          name=""
+          name="tod"
           id=""
           placeholder="Enter Todo"
           className="border p-2 w-2/3 rounded-md"
